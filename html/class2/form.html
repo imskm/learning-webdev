@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form tags</title>
+</head>
+<body>
+
+<form action="https://example.com" method="get">
+
+<input name="q" type="text" />
+<button type="submit">Google Search</button>
+<input type="submit" value="Google Search">
+<input type="reset" value="Cancel">
+
+<hr>
+
+<h1>input: text</h1>
+<input type="text" />
+
+<h1>input: password</h1>
+<input type="password" />
+
+<h1>Input: checkbox</h1>
+<input type="checkbox" />
+
+<h1>Input: radio</h1>
+<input type="radio" />
+
+<h1>Input: number</h1>
+<input type="number" />
+
+<h1>Input: date</h1>
+<input type="date" />
+
+<h1>Input: time</h1>
+<input type="time" />
+
+<h1>Select</h1>
+<select>
+	<option>Mango</option>
+	<option>Banana</option>
+	<option>Apple</option>
+	<option>Grapes</option>
+</select>
+
+<h1>Textarea</h1>
+<textarea></textarea>
+
+<hr>
+<h2>Complete Input tag sample</h2>
+
+<div>
+	<label for="first_name">First name</label>
+	<input id="first_name" name="first_name" placeholder="e.g. John" type="text" maxlength="4" required />
+</div>
+<div>
+	<label for="last_name">Last name</label>
+	<input id="last_name" name="last_name" placeholder="e.g. Smith" type="text" value="test" readonly disabled />
+</div>
+<div>
+	<label>Gender</label>
+	<input name="gender" value="male" type="radio" /> Male
+	<input name="gender" value="female" type="radio" /> Female
+</div>
+<div>
+	<label>Skills</label>
+	<label><input name="skill" value="html" type="checkbox" /> HTML</label>
+	<label><input name="skill" value="css" type="checkbox" /> CSS</label>
+	<label><input name="skill" value="js" type="checkbox" /> JavaScript</label>
+	<label><input name="skill" value="java" type="checkbox" /> Java</label>
+	<label><input name="skill" value="c" type="checkbox" /> C</label>
+</div>
+
+<button type="submit">Submit</button>
+
+
+
+
+</form>
+
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+
+</body>
+</html>

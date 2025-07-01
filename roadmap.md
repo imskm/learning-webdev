@@ -11,6 +11,8 @@
 #### HTML (Hyper Text Markup Language)
 
 - [ ] Basic HTML Markup
+	- [ ] html structure
+	- [ ] basic tags: h1, p, a, strong, em, b, i, br, img, hr, div
 - [ ] Form - input, select, button, etc.
 - [ ] multimedia tags - img, audio, video
 - [ ] hyper links - page linking
